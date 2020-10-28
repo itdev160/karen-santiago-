@@ -1,0 +1,45 @@
+.margin{
+    display: block;
+    margin: 0 auto ;
+    width: 1170px;
+
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background: url(https://farm5.staticflickr.com/4902/44891418625_2056c2bf9f_o.png) 
+    repeat fixed 100% ;   
+}
+
+#credits {
+    font-style: italic;
+    font-size: .75em;
+    margin-bottom: 20px
+}
+
+#CatsAndDogs-image, #Vampires-image, #City-image, #UI-image, #MC-image, #slice-image{
+    width:50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+h1, h2{
+    font-family: 'Trade Winds', cursive;
+}
+
+h3{
+    font-family: 'DM Serif Text', serif;
+}
+
+a:link, a:visited { 
+  color: blue;
+  text-decoration: underline;
+  cursor: auto;
+}
+
+a:hover{
+    color: red;
+}
+
